@@ -10,7 +10,8 @@
       "statusText": "Published — ICASSP 2026",
       "links": [
         { "text": "arXiv", "url": "https://arxiv.org/abs/2510.02187" },
-        { "text": "Samples", "url": "#" }
+        { "text": "GitHub", "url": "https://github.com/lucala/dac-se1/" },
+        { "text": "Samples", "url": "https://lucala.github.io/dac-se1/" }
       ],
       "bibtex": "@inproceedings{lanzendorfer2026high,\n  author = {Lanzend{\\\"o}rfer, L. A. and Berdoz, F. and Asonitis, A. and Wattenhofer, R.},\n  title = {{High-Fidelity Speech Enhancement via Discrete Audio Tokens}},\n  booktitle = {{IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)}},\n  year = {2026}\n}"
     },
