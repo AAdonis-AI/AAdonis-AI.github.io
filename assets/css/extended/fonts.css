@@ -89,6 +89,87 @@ header.header {
     font-size: 0.75rem;
     padding: 0.4rem 0.9rem;
   }
+
+  /* Publications page */
+  .pub-card {
+    padding: 0.9rem 1rem;
+  }
+  .pub-card .pub-title {
+    font-size: 0.85rem;
+  }
+  .pub-card .pub-authors {
+    font-size: 0.72rem;
+  }
+  .pub-card .pub-venue {
+    font-size: 0.68rem;
+  }
+  .pub-card .pub-links {
+    font-size: 0.65rem;
+  }
+  .pub-card .bibtex-content {
+    font-size: 0.55rem;
+  }
+  .pub-year {
+    font-size: 0.95rem;
+  }
+
+  /* Notebook page */
+  .notebook-topic {
+    padding: 0.9rem 1rem;
+  }
+  .notebook-topic-title {
+    font-size: 0.85rem;
+  }
+  .notebook-topic-desc {
+    font-size: 0.72rem;
+  }
+  .notebook-topic-meta {
+    font-size: 0.62rem;
+  }
+  .note-card {
+    padding: 0.8rem 1rem;
+  }
+  .note-card-title {
+    font-size: 0.82rem;
+  }
+  .note-card-summary {
+    font-size: 0.7rem;
+  }
+
+  /* CV page */
+  .cv-project-item {
+    grid-template-columns: 1fr;
+    row-gap: 0.1rem;
+  }
+  .cv-project-title {
+    font-size: 0.75rem;
+  }
+  .cv-project-desc {
+    font-size: 0.68rem;
+  }
+  .cv-entry h3 {
+    font-size: 0.8rem;
+  }
+  .cv-entry .role {
+    font-size: 0.72rem;
+  }
+  .cv-entry .meta {
+    font-size: 0.65rem;
+  }
+  .cv-entry p {
+    font-size: 0.68rem;
+  }
+  .cv-achievement-rank {
+    font-size: 1rem;
+  }
+  .cv-achievement-desc {
+    font-size: 0.65rem;
+  }
+
+  /* General content */
+  .post-content {
+    font-size: 0.85rem;
+  }
 }
 
 :root[data-theme="dark"] {
