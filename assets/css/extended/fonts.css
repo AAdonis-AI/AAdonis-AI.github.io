@@ -58,6 +58,39 @@ header.header {
   font-size: 10px;
 }
 
+@media (max-width: 600px) {
+  .profile img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .profile-bio {
+    font-size: 0.72rem;
+    line-height: 1.6;
+  }
+
+  .profile .profile_inner h1 {
+    font-size: 1.4rem;
+  }
+
+  .profile .profile_inner span {
+    font-size: 0.8rem;
+  }
+
+  .post-title {
+    font-size: 1.4rem;
+  }
+
+  .page-header h1 {
+    font-size: 1.4rem;
+  }
+
+  .main .profile .profile_inner .buttons a {
+    font-size: 0.75rem;
+    padding: 0.4rem 0.9rem;
+  }
+}
+
 :root[data-theme="dark"] {
   --theme: #000000;
   --entry: #181818;
