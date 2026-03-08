@@ -5,6 +5,7 @@ theme = 'PaperMod'
 paginate = 10
 
 [params]
+  favicon = '/favicon.svg'
   author = 'Adonis Asonitis'
   description = 'AI Researcher at ETH Zurich & AGIGO'
   ShowReadingTime = false
