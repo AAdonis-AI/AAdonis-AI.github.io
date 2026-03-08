@@ -111,6 +111,19 @@ hideMeta: true
   font-size: 0.76rem;
   color: var(--secondary);
   line-height: 1.4;
+  text-align: left;
+}
+@media (max-width: 600px) {
+  .cv-project-item {
+    grid-template-columns: 1fr;
+    row-gap: 0.05rem;
+  }
+  .cv-project-title {
+    font-size: 0.75rem;
+  }
+  .cv-project-desc {
+    font-size: 0.68rem;
+  }
 }
 
 /* Languages — plain, no card */
