@@ -1,0 +1,22 @@
+{{- $pub := . -}}
+<div class="pub-card">
+  <div class="pub-title">{{ $pub.title }}</div>
+  <div class="pub-authors">{{ $pub.authors | safeHTML }}</div>
+  {{- with $pub.venue }}
+  <div class="pub-venue">{{ . }}</div>
+  {{- end }}
+  {{- with $pub.description }}
+  <p style="font-size:0.93rem; margin:0.4rem 0 0 0;">{{ . }}</p>
+  {{- end }}
+  <div class="pub-links">
+    {{- with $pub.bibtex }}
+    <span class="bibtex-toggle" onclick="toggleBib('bib-{{ $pub.id }}')">BibTeX</span>
+    {{- end }}
+    {{- range $pub.links }}
+    <a href="{{ .url }}" target="_blank" rel="noopener noreferrer">{{ .text }}</a>
+    {{- end }}
+  </div>
+  {{- with $pub.bibtex }}
+  <div class="bibtex-content" id="bib-{{ $pub.id }}"><button class="bibtex-copy" onclick="copyBib('bib-{{ $pub.id }}')">Copy</button>{{ . }}</div>
+  {{- end }}
+</div>

@@ -1,0 +1,171 @@
+{{- define "main" }}
+
+<article class="post-single">
+  <header class="post-header">
+    {{ partial "breadcrumbs.html" . }}
+    <h1 class="post-title entry-hint-parent">{{ .Title }}</h1>
+    {{- if .Description }}
+    <div class="post-description">{{ .Description }}</div>
+    {{- end }}
+  </header>
+
+  <div class="post-content">
+    <style>
+    .pub-year {
+      font-size: 1.12rem;
+      font-weight: 700;
+      margin: 2.5rem 0 1rem 0;
+      padding-bottom: 0.4rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .pub-card {
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.2rem 1.5rem;
+      margin-bottom: 1rem;
+      background: var(--entry);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .pub-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(255, 255, 255, 0.05);
+    }
+    .pub-card .pub-title {
+      margin: 0 0 0.3rem 0;
+      font-size: 1rem;
+      font-weight: 600;
+    }
+    .pub-card .pub-authors {
+      font-size: 0.85rem;
+      color: var(--secondary);
+      margin-bottom: 0.2rem;
+    }
+    .pub-card .pub-venue {
+      font-size: 0.8rem;
+      color: var(--secondary);
+      font-style: italic;
+      margin-bottom: 0.4rem;
+    }
+    .pub-card .pub-status {
+      display: inline-block;
+      font-size: 0.62rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      padding: 0.15rem 0.5rem;
+      border-radius: 4px;
+      margin-bottom: 0.6rem;
+    }
+    .pub-card .pub-status.published {
+      background: #1a3a2a;
+      color: #4ade80;
+    }
+    .pub-card .pub-status.review {
+      background: #2a2a2a;
+      color: #888888;
+    }
+    .pub-card .pub-status.dataset {
+      background: #1a2a3a;
+      color: #60a5fa;
+    }
+    .pub-card .pub-links {
+      display: flex;
+      align-items: center;
+      gap: 0.8rem;
+      margin-top: 0.5rem;
+      font-size: 0.75rem;
+      font-weight: 500;
+    }
+    .pub-card .bibtex-toggle {
+      cursor: pointer;
+      color: var(--primary);
+      user-select: none;
+    }
+    .pub-card .bibtex-toggle:hover,
+    .pub-card .pub-links a:hover {
+      text-decoration: underline;
+    }
+    .pub-card .bibtex-content {
+      display: none;
+      margin-top: 0.5rem;
+      background: var(--code-bg);
+      border-radius: 6px;
+      padding: 0.8rem 1rem;
+      font-size: 0.64rem;
+      font-family: monospace;
+      white-space: pre-wrap;
+      word-break: break-all;
+      position: relative;
+    }
+    .pub-card .bibtex-content.open {
+      display: block;
+    }
+    .pub-card .bibtex-copy {
+      position: absolute;
+      top: 0.5rem;
+      right: 0.5rem;
+      font-size: 0.6rem;
+      cursor: pointer;
+      background: var(--border);
+      border: none;
+      color: var(--primary);
+      padding: 0.2rem 0.5rem;
+      border-radius: 4px;
+    }
+    .pub-card .bibtex-copy:hover {
+      background: var(--secondary);
+    }
+    </style>
+
+    <script>
+    function toggleBib(id) {
+      var el = document.getElementById(id);
+      el.classList.toggle('open');
+    }
+    function copyBib(id) {
+      var el = document.getElementById(id);
+      var text = el.innerText;
+      navigator.clipboard.writeText(text);
+    }
+    </script>
+
+    {{- $data := site.Data.publications -}}
+
+    {{- /* Group publications by year */ -}}
+    {{- $years := slice -}}
+    {{- range $data.publications -}}
+      {{- $y := .year | int -}}
+      {{- if not (in $years $y) -}}
+        {{- $years = $years | append $y -}}
+      {{- end -}}
+    {{- end -}}
+    {{- $years = sort $years "value" "desc" -}}
+
+    {{- range $year := $years }}
+    <div class="pub-year">{{ $year }}</div>
+    {{- range $data.publications }}
+      {{- if eq (.year | int) ($year | int) }}
+    {{ partial "pub-card.html" . }}
+      {{- end }}
+    {{- end }}
+    {{- end }}
+
+    {{- with $data.datasets }}
+    <div class="pub-year">Datasets</div>
+    {{- range . }}
+    {{ partial "pub-card.html" . }}
+    {{- end }}
+    {{- end }}
+  </div>
+
+  <footer class="post-footer">
+    {{- $tags := .Language.Params.Taxonomies.tag | default "tags" }}
+    <ul class="post-tags">
+      {{- range ($.GetTerms $tags) }}
+      <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
+      {{- end }}
+    </ul>
+  </footer>
+</article>
+
+{{- end }}

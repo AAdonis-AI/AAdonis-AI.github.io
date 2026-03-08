@@ -1,0 +1,147 @@
+{{- define "main" }}
+
+<article class="post-single">
+  <header class="post-header">
+    {{ partial "breadcrumbs.html" . }}
+    <h1 class="post-title entry-hint-parent">{{ .Title }}</h1>
+    {{- if .Description }}
+    <div class="post-description">{{ .Description }}</div>
+    {{- end }}
+  </header>
+
+  <div class="post-content">
+    <style>
+    /* ─── Topic cards (root /notebook/ page) ─── */
+    .notebook-topics {
+      display: flex;
+      flex-direction: column;
+      gap: 0.8rem;
+      margin-top: 1rem;
+    }
+    .notebook-topic {
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.2rem 1.5rem;
+      background: var(--entry);
+      display: block;
+      text-decoration: none;
+      color: var(--primary);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .notebook-topic:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(255, 255, 255, 0.05);
+      text-decoration: none;
+    }
+    .notebook-topic-title {
+      font-size: 1rem;
+      font-weight: 600;
+      margin-bottom: 0.35rem;
+    }
+    .notebook-topic-desc {
+      font-size: 0.82rem;
+      color: var(--secondary);
+      line-height: 1.5;
+      margin-bottom: 0.4rem;
+    }
+    .notebook-topic-meta {
+      font-size: 0.72rem;
+      color: var(--secondary);
+    }
+
+    /* ─── Note cards (topic page) ─── */
+    .notebook-topic-intro {
+      font-size: 0.9rem;
+      line-height: 1.7;
+      color: var(--primary);
+      margin-bottom: 2rem;
+      padding-bottom: 1.2rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .note-card {
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.1rem 1.4rem;
+      margin-bottom: 0.9rem;
+      background: var(--entry);
+      position: relative;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .note-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(255, 255, 255, 0.05);
+    }
+    .note-card-title {
+      font-size: 0.95rem;
+      font-weight: 600;
+      margin-bottom: 0.25rem;
+    }
+    .note-card-title a {
+      text-decoration: none;
+      color: var(--primary);
+    }
+    .note-card-title a:hover {
+      text-decoration: underline;
+    }
+    .note-card-summary {
+      font-size: 0.8rem;
+      color: var(--secondary);
+      line-height: 1.5;
+      margin-bottom: 0.4rem;
+    }
+    .note-card-meta {
+      font-size: 0.7rem;
+      color: var(--secondary);
+    }
+    </style>
+
+    {{- if .Parent.IsHome }}
+
+    {{/* ══════════════════════════════════════════════════
+         ROOT /notebook/ PAGE — show topic section cards
+         ══════════════════════════════════════════════════ */}}
+    <div class="notebook-topics">
+      {{- range .Sections }}
+      <a class="notebook-topic" href="{{ .Permalink }}">
+        <div class="notebook-topic-title">{{ .Title }}</div>
+        {{- if .Description }}
+        <div class="notebook-topic-desc">{{ .Description }}</div>
+        {{- end }}
+        <div class="notebook-topic-meta">{{ len .RegularPages }} note{{ if ne (len .RegularPages) 1 }}s{{ end }}</div>
+      </a>
+      {{- end }}
+    </div>
+
+    {{- else }}
+
+    {{/* ══════════════════════════════════════════════════
+         TOPIC PAGE — show intro content + note cards
+         ══════════════════════════════════════════════════ */}}
+    {{- with .Content }}
+    <div class="notebook-topic-intro">{{ . }}</div>
+    {{- end }}
+
+    {{- range .RegularPages }}
+    <div class="note-card">
+      <div class="note-card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></div>
+      {{- if .Summary }}
+      <div class="note-card-summary">{{ .Summary | plainify | truncate 180 }}</div>
+      {{- end }}
+      <div class="note-card-meta">{{ .Date.Format "Jan 2006" }}</div>
+    </div>
+    {{- end }}
+
+    {{- end }}
+  </div>
+
+  <footer class="post-footer">
+    {{- $tags := .Language.Params.Taxonomies.tag | default "tags" }}
+    <ul class="post-tags">
+      {{- range ($.GetTerms $tags) }}
+      <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
+      {{- end }}
+    </ul>
+  </footer>
+</article>
+
+{{- end }}

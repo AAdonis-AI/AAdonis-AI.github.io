@@ -1,0 +1,77 @@
+{
+  "publications": [
+    {
+      "id": "dacse1",
+      "title": "High-Fidelity Speech Enhancement via Discrete Audio Tokens",
+      "authors": "L. A. Lanzendörfer, F. Berdoz, <strong>A. Asonitis</strong>, R. Wattenhofer",
+      "venue": "ICASSP 2026",
+      "year": 2026,
+      "status": "published",
+      "statusText": "Published — ICASSP 2026",
+      "links": [
+        { "text": "arXiv", "url": "#" },
+        { "text": "Samples", "url": "#" }
+      ],
+      "bibtex": "@inproceedings{lanzendorfer2026high,\n  author = {Lanzend{\\\"o}rfer, L. A. and Berdoz, F. and Asonitis, A. and Wattenhofer, R.},\n  title = {{High-Fidelity Speech Enhancement via Discrete Audio Tokens}},\n  booktitle = {{IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)}},\n  year = {2026}\n}"
+    },
+    {
+      "id": "muse",
+      "title": "Multilingual Speech Editing",
+      "authors": "<strong>A. Asonitis</strong>, L. A. Lanzendörfer, F. Berdoz, R. Wattenhofer",
+      "venue": "Under Review",
+      "year": 2026,
+      "status": "review",
+      "statusText": "Under Review",
+      "links": [
+        { "text": "Samples", "url": "#" }
+      ],
+      "bibtex": "@misc{asonitis2026multilingualspeechediting,\n  title = {Multilingual Speech Editing},\n  author = {Antonis Asonitis and Luca A. Lanzend{\\\"o}rfer and Fr{\\'e}d{\\'e}ric Berdoz and Roger Wattenhofer},\n  year = {2026},\n  note = {Manuscript in preparation}\n}"
+    },
+    {
+      "id": "semcal",
+      "title": "Semantic Calibration in Media Streams",
+      "authors": "F. Berdoz, L. A. Lanzendörfer, <strong>A. Asonitis</strong>, R. Wattenhofer",
+      "venue": "Under Review",
+      "year": 2026,
+      "status": "review",
+      "statusText": "Under Review",
+      "links": [],
+      "bibtex": ""
+    },
+    {
+      "id": "rlse",
+      "title": "Post-Training Speech Enhancement Language Models with Perceptual Rewards",
+      "authors": "F. Berdoz, L. A. Lanzendörfer, <strong>A. Asonitis</strong>, R. Wattenhofer",
+      "venue": "Under Review",
+      "year": 2026,
+      "status": "review",
+      "statusText": "Under Review",
+      "links": [],
+      "bibtex": ""
+    },
+    {
+      "id": "lavoco",
+      "title": "Autoregressive Zero-Shot Voice Conversion",
+      "authors": "L. A. Lanzendörfer, F. Berdoz, <strong>A. Asonitis</strong>, R. Wattenhofer",
+      "venue": "Under Review",
+      "year": 2026,
+      "status": "review",
+      "statusText": "Under Review",
+      "links": [],
+      "bibtex": ""
+    }
+  ],
+  "datasets": [
+    {
+      "id": "multilingual-audio",
+      "title": "Multilingual Audio Alignments",
+      "authors": "<strong>A. Asonitis</strong>, et al.",
+      "status": "dataset",
+      "statusText": "#3 Trending Worldwide — HuggingFace",
+      "description": "The largest multilingual word and phoneme aligned speech dataset, 30k+ downloads, reached #3 Trending Worldwide in the Audio domain.",
+      "links": [
+        { "text": "HuggingFace", "url": "https://huggingface.co/datasets/AAdonis/multilingual_audio_alignments" }
+      ]
+    }
+  ]
+}

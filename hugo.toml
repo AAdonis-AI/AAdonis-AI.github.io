@@ -1,0 +1,91 @@
+baseURL = 'https://AAdonis-AI.github.io/'
+languageCode = 'en-us'
+title = 'Adonis Asonitis'
+theme = 'PaperMod'
+paginate = 10
+
+[params]
+  author = 'Adonis Asonitis'
+  description = 'AI Researcher at ETH Zurich & AGIGO'
+  ShowReadingTime = false
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = false
+  ShowCodeCopyButtons = true
+  ShowToc = false
+  defaultTheme = 'dark'
+  disableThemeToggle = true
+
+  [params.profileMode]
+    enabled = true
+    title = 'Adonis Asonitis'
+    subtitle = 'AI Researcher — ETH Zurich & AGIGO'
+    imageUrl = 'img/profile.jpg'
+    imageTitle = 'Adonis Asonitis'
+    imageWidth = 500
+    imageHeight = 500
+
+    [[params.profileMode.buttons]]
+      name = 'Publications'
+      url = '/publications/'
+
+    [[params.profileMode.buttons]]
+      name = 'Notebook'
+      url = '/notebook/'
+
+    [[params.profileMode.buttons]]
+      name = 'CV'
+      url = '/cv/'
+
+  [[params.socialIcons]]
+    name = 'github'
+    url = 'https://github.com/AAdonis-AI'
+
+  [[params.socialIcons]]
+    name = 'linkedin'
+    url = 'https://www.linkedin.com/in/adonis-asonitis-336655205/'
+
+  [[params.socialIcons]]
+    name = 'huggingface'
+    url = 'https://huggingface.co/AAdonis'
+
+  [[params.socialIcons]]
+    name = 'googlescholar'
+    url = '#'
+
+  [[params.socialIcons]]
+    name = 'email'
+    url = 'mailto:aasonitis@ethz.ch'
+
+[menu]
+  [[menu.main]]
+    identifier = 'home'
+    name = 'Home'
+    url = '/'
+    weight = 10
+
+  [[menu.main]]
+    identifier = 'publications'
+    name = 'Publications'
+    url = '/publications/'
+    weight = 20
+
+  [[menu.main]]
+    identifier = 'notebook'
+    name = 'Notebook'
+    url = '/notebook/'
+    weight = 30
+
+  [[menu.main]]
+    identifier = 'cv'
+    name = 'CV'
+    url = '/cv/'
+    weight = 40
+
+[outputs]
+  home = ['HTML', 'RSS', 'JSON']
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
