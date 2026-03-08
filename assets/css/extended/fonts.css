@@ -19,8 +19,8 @@ header.header {
   color: var(--secondary);
   font-size: 0.82rem;
   line-height: 1.7;
-  text-align: center;
-  hyphens: none;
+  text-align: justify;
+  hyphens: auto;
 }
 
 .profile-bio p {
