@@ -51,7 +51,7 @@ paginate = 10
 
   [[params.socialIcons]]
     name = 'googlescholar'
-    url = '#'
+    url = 'https://scholar.google.com/citations?user=LEZXe3EAAAAJ&hl=en'
 
   [[params.socialIcons]]
     name = 'email'
