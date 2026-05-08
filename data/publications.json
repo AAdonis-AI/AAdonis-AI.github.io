@@ -16,6 +16,19 @@
       "bibtex": "@inproceedings{lanzendorfer2026high,\n  author = {Lanzend{\\\"o}rfer, L. A. and Berdoz, F. and Asonitis, A. and Wattenhofer, R.},\n  title = {{High-Fidelity Speech Enhancement via Discrete Audio Tokens}},\n  booktitle = {{IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)}},\n  year = {2026}\n}"
     },
     {
+      "id": "worldspeech",
+      "title": "WorldSpeech: A Multilingual Speech Corpus from Around the World",
+      "authors": "<strong>A. Asonitis</strong>, L. A. Lanzendörfer, F. Berdoz, R. Wattenhofer",
+      "venue": "Under Review",
+      "year": 2026,
+      "status": "review",
+      "statusText": "Under Review",
+      "links": [
+        { "text": "HuggingFace", "url": "https://huggingface.co/datasets/disco-eth/WorldSpeech" }
+      ],
+      "bibtex": ""
+    },
+    {
       "id": "muse",
       "title": "Multilingual Speech Editing",
       "authors": "<strong>A. Asonitis</strong>, L. A. Lanzendörfer, F. Berdoz, R. Wattenhofer",
