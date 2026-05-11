@@ -13,7 +13,7 @@
         { "text": "GitHub", "url": "https://github.com/lucala/dac-se1/" },
         { "text": "Samples", "url": "https://lucala.github.io/dac-se1/" }
       ],
-      "bibtex": "@inproceedings{lanzendorfer2026high,\n  author = {Lanzend{\\\"o}rfer, L. A. and Berdoz, F. and Asonitis, A. and Wattenhofer, R.},\n  title = {{High-Fidelity Speech Enhancement via Discrete Audio Tokens}},\n  booktitle = {{IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)}},\n  year = {2026}\n}"
+      "bibtex": "@InProceedings{Lanzendörfer2026highfidelity,\n    author=    {Luca Lanzendörfer and Frédéric Berdoz and Antonis Asonitis and Roger Wattenhofer},\n    title=    {{High-Fidelity Speech Enhancement via Discrete Audio Tokens}},\n    booktitle=    {{Proceedings of the IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), Barcelona, Catalonia, Spain}},\n    month=    {May},\n    year=    {2026},\n}"
     },
     {
       "id": "worldspeech",
