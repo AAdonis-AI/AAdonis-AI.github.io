@@ -1,6 +1,21 @@
 {
   "publications": [
     {
+      "id": "worldspeech",
+      "title": "WorldSpeech: A Multilingual Speech Corpus from Around the World",
+      "authors": "<strong>A. Asonitis</strong>, L. A. Lanzendörfer, F. Berdoz, R. Wattenhofer",
+      "venue": "Under Review",
+      "year": 2026,
+      "status": "review",
+      "statusText": "Under Review",
+      "description": "65k hours across 80+ languages, sourced from government proceedings, international broadcasts and public-domain audiobooks. 35k+ HuggingFace downloads in first week of release.",
+      "links": [
+        { "text": "arXiv", "url": "https://arxiv.org/abs/2605.09167" },
+        { "text": "HuggingFace", "url": "https://huggingface.co/datasets/disco-eth/WorldSpeech" }
+      ],
+      "bibtex": "@misc{asonitis2026worldspeechmultilingualspeechcorpus,\n      title={WorldSpeech: A Multilingual Speech Corpus from Around the World}, \n      author={Antonis Asonitis and Luca A. Lanzendörfer and Frédéric Berdoz and Roger Wattenhofer},\n      year={2026},\n      eprint={2605.09167},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL},\n      url={https://arxiv.org/abs/2605.09167}, \n}"
+    },
+    {
       "id": "dacse1",
       "title": "High-Fidelity Speech Enhancement via Discrete Audio Tokens",
       "authors": "L. A. Lanzendörfer, F. Berdoz, <strong>A. Asonitis</strong>, R. Wattenhofer",
@@ -16,20 +31,6 @@
       "bibtex": "@InProceedings{Lanzendörfer2026highfidelity,\n    author=    {Luca Lanzendörfer and Frédéric Berdoz and Antonis Asonitis and Roger Wattenhofer},\n    title=    {{High-Fidelity Speech Enhancement via Discrete Audio Tokens}},\n    booktitle=    {{Proceedings of the IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), Barcelona, Catalonia, Spain}},\n    month=    {May},\n    year=    {2026},\n}"
     },
     {
-      "id": "worldspeech",
-      "title": "WorldSpeech: A Multilingual Speech Corpus from Around the World",
-      "authors": "<strong>A. Asonitis</strong>, L. A. Lanzendörfer, F. Berdoz, R. Wattenhofer",
-      "venue": "Under Review",
-      "year": 2026,
-      "status": "review",
-      "statusText": "Under Review",
-      "links": [
-        { "text": "arXiv", "url": "https://arxiv.org/abs/2605.09167" },
-        { "text": "HuggingFace", "url": "https://huggingface.co/datasets/disco-eth/WorldSpeech" }
-      ],
-      "bibtex": "@misc{asonitis2026worldspeechmultilingualspeechcorpus,\n      title={WorldSpeech: A Multilingual Speech Corpus from Around the World}, \n      author={Antonis Asonitis and Luca A. Lanzendörfer and Frédéric Berdoz and Roger Wattenhofer},\n      year={2026},\n      eprint={2605.09167},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL},\n      url={https://arxiv.org/abs/2605.09167}, \n}"
-    },
-    {
       "id": "muse",
       "title": "Multilingual Speech Editing",
       "authors": "<strong>A. Asonitis</strong>, L. A. Lanzendörfer, F. Berdoz, R. Wattenhofer",
@@ -38,7 +39,7 @@
       "status": "review",
       "statusText": "Under Review",
       "links": [],
-      "bibtex": "@misc{asonitis2026multilingualspeechediting,\n  title = {Multilingual Speech Editing},\n  author = {Antonis Asonitis and Luca A. Lanzend{\\\"o}rfer and Fr{\\'e}d{\\'e}ric Berdoz and Roger Wattenhofer},\n  year = {2026},\n  note = {Manuscript in preparation}\n}"
+      "bibtex": "@misc{asonitis2026multilingualspeechediting,\n  title = {Multilingual Speech Editing},\n  author = {Antonis Asonitis and Luca A. Lanzend{\\\"o}rfer and Fr{\\'e}d{\\'e}ric Berdoz and Roger Wattenhofer},\n  year = {2026},\n  note = {Under review}\n}"
     },
     {
       "id": "semcal",
@@ -81,7 +82,7 @@
       "authors": "<strong>A. Asonitis</strong>, et al.",
       "status": "dataset",
       "statusText": "#3 Trending Worldwide — HuggingFace",
-      "description": "The largest multilingual word and phoneme aligned speech dataset, 30k+ downloads, reached #3 Trending Worldwide in the Audio domain.",
+      "description": "The largest multilingual word and phoneme aligned speech dataset, 35k+ downloads, reached #3 Trending Worldwide in the Audio domain.",
       "links": [
         { "text": "HuggingFace", "url": "https://huggingface.co/datasets/AAdonis/multilingual_audio_alignments" }
       ]

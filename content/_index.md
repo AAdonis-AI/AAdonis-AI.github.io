@@ -1,6 +1,6 @@
 ---
 title: "Adonis Asonitis"
-description: "A.Asonitis — AAdonis. AI Researcher at ETH Zurich & AGIGO. Speech processing, multimodal AI, reinforcement learning."
+description: "Adonis Asonitis — AI Researcher at ETH Zurich and AGIGO. Speech generation, large-scale multilingual audio data, post-training. Author of WorldSpeech."
 ---
 
-First-year MSc in Computer Science at ETH Zurich, majoring in Machine Intelligence. I work on multimodal AI research at ETH Zurich and AGIGO — primarily speech, with work in vision and text. My publications span speech processing, reinforcement learning, and discrete representation learning. I also maintain a public notebook of technical notes from my research.
+MSc student in Computer Science at ETH Zurich, majoring in Machine Intelligence. I work on multimodal AI research at ETH (DISCO group, Prof. Wattenhofer) and AGIGO — focused on speech generation, large-scale multilingual audio data, and post-training. My recent work includes WorldSpeech, the largest publicly available human-transcribed multilingual speech corpus (65k hours, 80+ languages). I also maintain a public notebook of technical notes from my research.

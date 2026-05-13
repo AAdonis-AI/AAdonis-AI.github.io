@@ -147,10 +147,13 @@ hideMeta: true
 <div class="cv-entry">
 <h3>AGIGO</h3>
 <div class="cv-header">
-  <span class="role">AI Research Intern</span>
+  <span class="role">AI Research Engineer (Internship) — Conversational AI, speech processing and post-training</span>
   <span class="meta">Zurich · Jan 2026 – Present</span>
 </div>
-<p>Developing a neural phonemizer for TTS beyond traditional G2P rules. Designing SFT and RL training infrastructure for large-scale TTS models; improving zero-shot pronunciation across languages.</p>
+<ul style="font-size:0.78rem; line-height:1.45; margin:0.25rem 0 0 1rem; padding:0; color:var(--secondary);">
+  <li>Designed post-training methods giving fine-grained control over zero-shot pronunciation and cross-lingual phonetic nuances.</li>
+  <li>Built end-to-end data pipelines and evaluation infrastructure, including internal blind listening tests, automated objective eval suites, and dataset curation/QA workflows used across TTS model training.</li>
+</ul>
 </div>
 
 <div class="cv-entry">
@@ -159,7 +162,7 @@ hideMeta: true
   <span class="role">Student Researcher, Distributed Computing</span>
   <span class="meta">Zurich · Feb 2025 – Present</span>
 </div>
-<p>Under Prof. Dr. Roger Wattenhofer. Speech processing, generative modeling, and RL. Published at ICASSP 2026; ongoing submissions to NeurIPS, ICML, Interspeech. Built the largest multilingual aligned speech dataset on HuggingFace (#3 trending worldwide).</p>
+<p>Research student under Prof. Roger Wattenhofer. Speech generation, multilingual audio data, codec language models, and reinforcement learning. First-authored WorldSpeech, the largest publicly available human-transcribed multilingual speech corpus (65k hours across 80+ languages, 35k+ HuggingFace downloads in first week). Additional work on multilingual speech editing, zero-shot voice conversion, speech enhancement language models, and RL post-training for speech enhancement.</p>
 </div>
 </div>
 
@@ -179,7 +182,7 @@ hideMeta: true
 <div class="cv-header">
   <span class="meta">2022 – 2025 · Zurich</span>
 </div>
-<p>Statistical modeling, ML, computer systems, applied mathematics. Top-graded thesis (6/6), developed into an ICML submission.</p>
+<p>Statistical modeling, ML, computer systems, applied mathematics. Top-graded thesis (6/6), developed into a top-tier ML conference submission.</p>
 </div>
 </div>
 
@@ -193,7 +196,7 @@ hideMeta: true
   </div>
   <div class="cv-project-item">
     <span class="cv-project-title">Greek Urban Planning RAG</span>
-    <span class="cv-project-desc">RAG system with fine-tuned LLMs for lawyers and engineers navigating Greek urban planning legislation.</span>
+    <span class="cv-project-desc">RAG system for lawyers and engineers navigating Greek urban planning legislation.</span>
   </div>
   <div class="cv-project-item">
     <span class="cv-project-title">Gen-AI for DolliBar</span>
@@ -222,7 +225,7 @@ hideMeta: true
     <span class="cv-achievement-desc">European Cup standings (2018)</span>
   </div>
   <div class="cv-achievement">
-    <span class="cv-achievement-rank">6×</span>
+    <span class="cv-achievement-rank">4×</span>
     <span class="cv-achievement-desc">Swiss national medals</span>
   </div>
   <div class="cv-achievement">
