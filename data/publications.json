@@ -8,7 +8,7 @@
       "year": 2026,
       "status": "review",
       "statusText": "Under Review",
-      "description": "65k hours across 80+ languages, sourced from government proceedings, international broadcasts and public-domain audiobooks. 35k+ HuggingFace downloads in first week of release.",
+      "description": "65k hours across 80+ languages, sourced from government proceedings, international broadcasts and public-domain audiobooks. 100k+ HuggingFace downloads and #1 trending in its first month of release.",
       "links": [
         { "text": "arXiv", "url": "https://arxiv.org/abs/2605.09167" },
         { "text": "HuggingFace", "url": "https://huggingface.co/datasets/disco-eth/WorldSpeech" }
@@ -34,7 +34,7 @@
       "id": "muse",
       "title": "Multilingual Speech Editing",
       "authors": "<strong>A. Asonitis</strong>, L. A. Lanzendörfer, F. Berdoz, R. Wattenhofer",
-      "venue": "Under Review",
+      "venue": "Oral, ICML 2026 Workshop on Machine Learning for Audio · Under Review",
       "year": 2026,
       "status": "review",
       "statusText": "Under Review",
@@ -56,7 +56,7 @@
       "id": "rlse",
       "title": "Post-Training Speech Enhancement Language Models with Perceptual Rewards",
       "authors": "F. Berdoz, L. A. Lanzendörfer, <strong>A. Asonitis</strong>, R. Wattenhofer",
-      "venue": "Under Review",
+      "venue": "Poster, ICML 2026 Workshop on Machine Learning for Audio · Under Review",
       "year": 2026,
       "status": "review",
       "statusText": "Under Review",
@@ -67,7 +67,7 @@
       "id": "lavoco",
       "title": "Autoregressive Zero-Shot Voice Conversion",
       "authors": "L. A. Lanzendörfer, F. Berdoz, <strong>A. Asonitis</strong>, R. Wattenhofer",
-      "venue": "Under Review",
+      "venue": "Oral, ICML 2026 Workshop on Machine Learning for Audio · Under Review",
       "year": 2026,
       "status": "review",
       "statusText": "Under Review",
@@ -82,7 +82,7 @@
       "authors": "<strong>A. Asonitis</strong>, et al.",
       "status": "dataset",
       "statusText": "#3 Trending Worldwide — HuggingFace",
-      "description": "The largest multilingual word and phoneme aligned speech dataset, 35k+ downloads, reached #3 Trending Worldwide in the Audio domain.",
+      "description": "The largest multilingual word and phoneme aligned speech dataset, 45k+ downloads, reached #3 Trending Worldwide in the Audio domain.",
       "links": [
         { "text": "HuggingFace", "url": "https://huggingface.co/datasets/AAdonis/multilingual_audio_alignments" }
       ]

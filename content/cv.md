@@ -162,7 +162,7 @@ hideMeta: true
   <span class="role">Student Researcher, Distributed Computing</span>
   <span class="meta">Zurich · Feb 2025 – Present</span>
 </div>
-<p>Research student under Prof. Roger Wattenhofer. Speech generation, multilingual audio data, codec language models, and reinforcement learning. First-authored WorldSpeech, the largest publicly available human-transcribed multilingual speech corpus (65k hours across 80+ languages, 35k+ HuggingFace downloads in first week). Additional work on multilingual speech editing, zero-shot voice conversion, speech enhancement language models, and RL post-training for speech enhancement.</p>
+<p>Research student under Prof. Roger Wattenhofer. Speech generation, multilingual audio data, codec language models, and reinforcement learning. First-authored WorldSpeech, the largest publicly available human-transcribed multilingual speech corpus (65k hours across 80+ languages, 100k+ HuggingFace downloads and #1 trending in its first month). Additional work on multilingual speech editing, zero-shot voice conversion, speech enhancement language models, and RL post-training for speech enhancement.</p>
 </div>
 </div>
 
