@@ -1,0 +1,26 @@
+/* ===== Accent color ===== */
+:root, .dark {
+  --accent: #7ee787;
+  --accent-soft: rgba(126, 231, 135, 0.14);
+}
+
+/* links */
+.post-content a,
+.profile-bio a { color: var(--accent); }
+.post-content a:hover,
+.profile-bio a:hover { color: #aff5b4; }
+
+/* nav */
+#menu a:hover,
+#menu .active { color: var(--accent); }
+#menu .active::after { background: var(--accent) !important; }
+
+/* homepage buttons */
+.buttons .button:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: var(--accent-soft);
+}
+
+/* social icons */
+.social-icons a:hover svg { fill: var(--accent); }

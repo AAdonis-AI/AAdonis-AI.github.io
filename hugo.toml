@@ -6,7 +6,7 @@ paginate = 10
 
 [params]
   author = 'Adonis Asonitis'
-  description = 'A.Asonitis — AI Researcher at ETH Zurich & AGIGO. Speech processing, multimodal AI, reinforcement learning.'
+  description = 'A.Asonitis, AI Researcher at ETH Zurich & AGIGO. Speech processing, multimodal AI, reinforcement learning.'
   ShowReadingTime = false
   ShowShareButtons = false
   ShowPostNavLinks = true
@@ -15,6 +15,9 @@ paginate = 10
   ShowToc = false
   defaultTheme = 'dark'
   disableThemeToggle = true
+
+  [params.label]
+    text = '~./AAdonis'
 
   [params.profileMode]
     enabled = true

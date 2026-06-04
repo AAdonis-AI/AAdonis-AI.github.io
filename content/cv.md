@@ -75,7 +75,7 @@ hideMeta: true
 .cv-achievement-rank {
   font-size: 1.15rem;
   font-weight: 700;
-  color: var(--primary);
+  color: var(--accent);
   line-height: 1.2;
 }
 .cv-achievement-desc {
