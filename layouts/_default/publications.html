@@ -25,11 +25,19 @@
       margin-bottom: 1rem;
       background: var(--entry);
       transition: transform 0.2s ease, box-shadow 0.2s ease;
+      scroll-margin-top: 5rem;
     }
     .pub-card:hover {
       transform: translateY(-2px);
       border-color: var(--accent);
       box-shadow: 0 4px 14px rgba(126, 231, 135, 0.12);
+    }
+    /* brief flash when arrived at via a #deep-link, then fades back to normal */
+    .pub-card:target { animation: pub-flash 1.8s ease-out 1; }
+    @keyframes pub-flash {
+      0%   { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent), 0 4px 18px rgba(126, 231, 135, 0.18); }
+      70%  { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent), 0 4px 18px rgba(126, 231, 135, 0.10); }
+      100% { border-color: var(--border); box-shadow: none; }
     }
     .pub-card .pub-title {
       margin: 0 0 0.3rem 0;

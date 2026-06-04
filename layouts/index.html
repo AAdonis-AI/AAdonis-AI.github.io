@@ -1,3 +1,40 @@
 {{- define "main" }}
-{{- partial "index_profile.html" . }}
+{{- $p := site.Params.profileMode }}
+<div class="home home-portfolio">
+  <header class="hero">
+    <img class="home-photo" src="/img/profile.jpg" alt="{{ $p.title }}" width="180" height="180" />
+    <div class="hero-text">
+      <h1 class="home-name">{{ $p.title | default site.Title }}</h1>
+      <p class="home-sub">{{ $p.subtitle }}</p>
+      <div class="home-bio">{{ .Content }}</div>
+      {{ partial "social_icons.html" (dict "align" "") }}
+      <div class="home-buttons">
+        {{- range $p.buttons }}
+        <a class="home-btn" href="{{ .url }}">{{ .name }}</a>
+        {{- end }}
+      </div>
+    </div>
+  </header>
+
+  <section class="featured">
+    <h2 class="featured-title">Featured work</h2>
+    <div class="featured-grid">
+      <a class="feat-card" href="/publications/#worldspeech">
+        <div class="feat-tag">Dataset · #1 trending</div>
+        <div class="feat-name">WorldSpeech</div>
+        <div class="feat-desc">Largest publicly available human-transcribed multilingual speech corpus. 65k hours · 80+ languages · 100k+ downloads.</div>
+      </a>
+      <a class="feat-card" href="/publications/#muse">
+        <div class="feat-tag">Oral · ICML Workshop</div>
+        <div class="feat-name">MuSE: Multilingual Speech Editing</div>
+        <div class="feat-desc">Highly multilingual, state-of-the-art speech editing. Seamlessly replace a word in an existing utterance.</div>
+      </a>
+      <a class="feat-card" href="/publications/#rlse">
+        <div class="feat-tag">Accepted · Interspeech 2026</div>
+        <div class="feat-name">Post-Training Speech Enhancement LMs</div>
+        <div class="feat-desc">Speech enhancement language models post-trained with perceptual rewards, reaching state-of-the-art enhancement.</div>
+      </a>
+    </div>
+  </section>
+</div>
 {{- end }}

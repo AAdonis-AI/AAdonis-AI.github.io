@@ -1,5 +1,5 @@
 {{- $pub := . -}}
-<div class="pub-card">
+<div class="pub-card" id="{{ $pub.id }}">
   <div class="pub-title">{{ $pub.title }}</div>
   <div class="pub-authors">{{ $pub.authors | safeHTML }}</div>
   {{- with $pub.venue }}
