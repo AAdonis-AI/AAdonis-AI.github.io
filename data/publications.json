@@ -38,7 +38,9 @@
       "year": 2026,
       "status": "published",
       "statusText": "Accepted — Interspeech 2026",
-      "links": [],
+      "links": [
+        { "text": "arXiv", "url": "https://arxiv.org/abs/2606.21458" }
+      ],
       "bibtex": ""
     },
     {
@@ -71,6 +73,50 @@
       "id": "semcal",
       "title": "Semantic Calibration in Media Streams",
       "authors": "F. Berdoz, L. A. Lanzendörfer, <strong>A. Asonitis</strong>, R. Wattenhofer",
+      "venue": "Under Review",
+      "year": 2026,
+      "status": "review",
+      "statusText": "Under Review",
+      "links": [],
+      "bibtex": ""
+    },
+    {
+      "id": "graft",
+      "title": "GRAFT: Grafted Reference Audio for Fine-grained Pronunciation in Zero-shot Text-to-Speech",
+      "authors": "<strong>A. Asonitis</strong>, F. Verdini, A. Farhadipour, P. Zuluaga",
+      "venue": "Under Review",
+      "year": 2026,
+      "status": "review",
+      "statusText": "Under Review",
+      "links": [],
+      "bibtex": ""
+    },
+    {
+      "id": "sqm",
+      "title": "Speech Quality Metrics Stop Predicting Human Preference as TTS Saturates",
+      "authors": "<strong>A. Asonitis</strong>, P. Zuluaga, F. Verdini, A. Farhadipour",
+      "venue": "Under Review",
+      "year": 2026,
+      "status": "review",
+      "statusText": "Under Review",
+      "links": [],
+      "bibtex": ""
+    },
+    {
+      "id": "rate-steering",
+      "title": "Controlling Speaking Rate in Autoregressive TTS via Activation Steering",
+      "authors": "F. Verdini, <strong>A. Asonitis</strong>, A. Farhadipour, P. Zuluaga",
+      "venue": "Under Review",
+      "year": 2026,
+      "status": "review",
+      "statusText": "Under Review",
+      "links": [],
+      "bibtex": ""
+    },
+    {
+      "id": "omnitag",
+      "title": "OmniTag-LLM: A Multimodal Large Language Model for Multilingual Multitask Speech Labeling",
+      "authors": "A. Farhadipour, F. Verdini, <strong>A. Asonitis</strong>, P. Zuluaga",
       "venue": "Under Review",
       "year": 2026,
       "status": "review",
