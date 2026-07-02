@@ -41,7 +41,7 @@
       "links": [
         { "text": "arXiv", "url": "https://arxiv.org/abs/2606.21458" }
       ],
-      "bibtex": ""
+      "bibtex": "@misc{berdoz2026posttrainingspeechenhancementlanguage,\n      title={Post-Training Speech Enhancement Language Models with Perceptual Rewards}, \n      author={Frédéric Berdoz and Luca A. Lanzendörfer and Antonis Asonitis and Roger Wattenhofer},\n      year={2026},\n      eprint={2606.21458},\n      archivePrefix={arXiv},\n      primaryClass={cs.LG},\n      url={https://arxiv.org/abs/2606.21458}, \n}"
     },
     {
       "id": "muse",
@@ -95,7 +95,7 @@
     },
     {
       "id": "sqm",
-      "title": "Speech Quality Metrics Stop Predicting Human Preference as TTS Saturates",
+      "title": "The Limits of Reference-Free Speech Quality Metrics as Evaluators and Rewards on Modern Text-to-Speech",
       "authors": "<strong>A. Asonitis</strong>, P. Zuluaga, F. Verdini, A. Farhadipour",
       "venue": "Under Review",
       "year": 2026,
