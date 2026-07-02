@@ -88,7 +88,9 @@
       "year": 2026,
       "status": "review",
       "statusText": "Under Review",
-      "links": [],
+      "links": [
+        { "text": "Samples", "url": "https://graft-tts.github.io/graft/" }
+      ],
       "bibtex": ""
     },
     {
