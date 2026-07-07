@@ -89,6 +89,7 @@
       "status": "review",
       "statusText": "Under Review",
       "links": [
+        { "text": "arXiv", "url": "https://arxiv.org/abs/2607.02633" },
         { "text": "Samples", "url": "https://graft-tts.github.io/graft/" }
       ],
       "bibtex": ""
