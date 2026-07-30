@@ -145,24 +145,24 @@ hideMeta: true
 <div class="cv-section-title">Experience</div>
 
 <div class="cv-entry">
-<h3>AGIGO</h3>
-<div class="cv-header">
-  <span class="role">AI Research Engineer (Internship) — Conversational AI, speech processing and post-training</span>
-  <span class="meta">Zurich · Jan 2026 – Present</span>
-</div>
-<ul style="font-size:0.78rem; line-height:1.45; margin:0.25rem 0 0 1rem; padding:0; color:var(--secondary);">
-  <li>Designed post-training methods giving fine-grained control over zero-shot pronunciation and cross-lingual phonetic nuances.</li>
-  <li>Built end-to-end data pipelines and evaluation infrastructure, including internal blind listening tests, automated objective eval suites, and dataset curation/QA workflows used across TTS model training.</li>
-</ul>
-</div>
-
-<div class="cv-entry">
 <h3>ETH Zurich — DISCO Lab</h3>
 <div class="cv-header">
   <span class="role">Student Researcher, Distributed Computing</span>
   <span class="meta">Zurich · Feb 2025 – Present</span>
 </div>
-<p>Research student under Prof. Roger Wattenhofer. Speech generation, multilingual audio data, codec language models, and reinforcement learning. First-authored WorldSpeech, the largest publicly available human-transcribed multilingual speech corpus (65k hours across 80+ languages, 100k+ HuggingFace downloads and #1 trending in its first month). Additional work on multilingual speech editing, zero-shot voice conversion, speech enhancement language models, and RL post-training for speech enhancement.</p>
+<p>Research student under Prof. Roger Wattenhofer. Speech generation, multilingual audio data, codec language models, and reinforcement learning. First-authored WorldSpeech, the largest publicly available human-transcribed multilingual speech corpus (65k hours across 80+ languages, 150k+ HuggingFace downloads; #1 trending in its first month). Additional work on multilingual speech editing, zero-shot voice conversion, speech enhancement language models, and RL post-training for speech enhancement.</p>
+</div>
+
+<div class="cv-entry">
+<h3>AGIGO</h3>
+<div class="cv-header">
+  <span class="role">AI Research Engineer (Internship) — Conversational AI, speech processing and post-training</span>
+  <span class="meta">Zurich · Jan 2026 – Jul 2026</span>
+</div>
+<ul style="font-size:0.78rem; line-height:1.45; margin:0.25rem 0 0 1rem; padding:0; color:var(--secondary);">
+  <li>Designed post-training methods giving fine-grained control over zero-shot pronunciation and cross-lingual phonetic nuances.</li>
+  <li>Built end-to-end data pipelines and evaluation infrastructure, including internal blind listening tests, automated objective eval suites, and dataset curation/QA workflows used across TTS model training.</li>
+</ul>
 </div>
 </div>
 

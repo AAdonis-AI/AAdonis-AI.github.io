@@ -8,7 +8,7 @@
       "year": 2026,
       "status": "review",
       "statusText": "Under Review",
-      "description": "65k hours across 80+ languages, sourced from government proceedings, international broadcasts and public-domain audiobooks. 100k+ HuggingFace downloads and #1 trending in its first month of release.",
+      "description": "65k hours across 80+ languages, sourced from government proceedings, international broadcasts and public-domain audiobooks. 150k+ HuggingFace downloads; #1 trending in its first month of release.",
       "links": [
         { "text": "arXiv", "url": "https://arxiv.org/abs/2605.09167" },
         { "text": "HuggingFace", "url": "https://huggingface.co/datasets/disco-eth/WorldSpeech" }
@@ -34,10 +34,10 @@
       "id": "rlse",
       "title": "Post-Training Speech Enhancement Language Models with Perceptual Rewards",
       "authors": "F. Berdoz, L. A. Lanzendörfer, <strong>A. Asonitis</strong>, R. Wattenhofer",
-      "venue": "Interspeech 2026",
+      "venue": "Oral, Interspeech 2026",
       "year": 2026,
       "status": "published",
-      "statusText": "Accepted — Interspeech 2026",
+      "statusText": "Oral — Interspeech 2026",
       "links": [
         { "text": "arXiv", "url": "https://arxiv.org/abs/2606.21458" }
       ],
