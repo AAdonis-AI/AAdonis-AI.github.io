@@ -145,6 +145,15 @@ hideMeta: true
 <div class="cv-section-title">Experience</div>
 
 <div class="cv-entry">
+<h3>Rime</h3>
+<div class="cv-header">
+  <span class="role">Member of Technical Staff</span>
+  <span class="meta">Aug 2026 – Present</span>
+</div>
+<p>Working on full-duplex systems, neural codecs, and expressive TTS models.</p>
+</div>
+
+<div class="cv-entry">
 <h3>ETH Zurich — DISCO Lab</h3>
 <div class="cv-header">
   <span class="role">Student Researcher, Distributed Computing</span>

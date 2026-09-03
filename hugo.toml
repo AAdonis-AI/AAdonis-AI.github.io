@@ -6,7 +6,7 @@ paginate = 10
 
 [params]
   author = 'Adonis Asonitis'
-  description = 'A.Asonitis, Multimodal ML Researcher at ETH Zurich. Speech processing, multimodal AI, reinforcement learning.'
+  description = 'A.Asonitis, Member of Technical Staff at Rime and researcher at ETH Zurich. Speech processing, multimodal AI, reinforcement learning.'
   ShowReadingTime = false
   ShowShareButtons = false
   ShowPostNavLinks = true
@@ -22,7 +22,7 @@ paginate = 10
   [params.profileMode]
     enabled = true
     title = 'Adonis Asonitis'
-    subtitle = 'Multimodal ML Researcher — ETH Zurich'
+    subtitle = 'Member of Technical Staff — Rime'
     imageUrl = 'img/profile.jpg'
     imageTitle = 'Adonis Asonitis'
     imageWidth = 500
