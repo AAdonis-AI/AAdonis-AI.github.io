@@ -84,10 +84,10 @@
       "id": "graft",
       "title": "GRAFT: Grafted Reference Audio for Fine-grained Pronunciation in Zero-shot Text-to-Speech",
       "authors": "<strong>A. Asonitis</strong>, F. Verdini, A. Farhadipour, P. Zuluaga",
-      "venue": "Under Review",
+      "venue": "IEEE SLT 2026",
       "year": 2026,
-      "status": "review",
-      "statusText": "Under Review",
+      "status": "published",
+      "statusText": "Accepted — IEEE SLT 2026",
       "links": [
         { "text": "arXiv", "url": "https://arxiv.org/abs/2607.02633" },
         { "text": "Samples", "url": "https://graft-tts.github.io/graft/" }
@@ -98,21 +98,23 @@
       "id": "sqm",
       "title": "The Limits of Reference-Free Speech Quality Metrics as Evaluators and Rewards on Modern Text-to-Speech",
       "authors": "<strong>A. Asonitis</strong>, P. Zuluaga, F. Verdini, A. Farhadipour",
-      "venue": "Under Review",
+      "venue": "IEEE SLT 2026",
       "year": 2026,
-      "status": "review",
-      "statusText": "Under Review",
-      "links": [],
+      "status": "published",
+      "statusText": "Accepted — IEEE SLT 2026",
+      "links": [
+        { "text": "arXiv", "url": "https://arxiv.org/abs/2609.13150" }
+      ],
       "bibtex": ""
     },
     {
       "id": "rate-steering",
       "title": "Controlling Speaking Rate in Autoregressive TTS via Activation Steering",
       "authors": "F. Verdini, <strong>A. Asonitis</strong>, A. Farhadipour, P. Zuluaga",
-      "venue": "Under Review",
+      "venue": "IEEE SLT 2026",
       "year": 2026,
-      "status": "review",
-      "statusText": "Under Review",
+      "status": "published",
+      "statusText": "Accepted — IEEE SLT 2026",
       "links": [],
       "bibtex": ""
     },

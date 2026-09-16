@@ -150,7 +150,11 @@ hideMeta: true
   <span class="role">Member of Technical Staff</span>
   <span class="meta">Aug 2026 – Present</span>
 </div>
-<p>Working on full-duplex systems, neural codecs, and expressive TTS models.</p>
+<ul style="font-size:0.78rem; line-height:1.45; margin:0.25rem 0 0 1rem; padding:0; color:var(--secondary);">
+  <li>Own the synthetic data pipeline for emotionally aware full-duplex speech-to-speech systems: controlled emotion, disfluencies, turn-taking, and response appropriateness.</li>
+  <li>Building state-of-the-art audio-to-phoneme models, shipped to production.</li>
+  <li>Post-training features for zero-shot pronunciation control.</li>
+</ul>
 </div>
 
 <div class="cv-entry">
